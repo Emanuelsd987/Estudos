@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            text-align: justify;
+        }
+       table td {
+            border: 3px solid blue;
+            padding: 8px 16px;
+            background-color: rgba(0, 0, 0, 0.452);
+            color: white;
+            border-collapse: collapse;
+        }
+        th {
+            border: 3px solid black;
+            padding: 8px 16px;
+            background-color: rgba(0, 0, 0, 0.452);
+            color: white;
+            border-collapse: collapse;
+        }
+        th[rowspan] {
+            font-weight: bold;
+            background-color: black;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Legenda das Tabelas</caption>
+        <thead>
+        <tr>
+            <th colspan="4" style="text-align: center;">Cabeçalho de uma tabela</th>
+        </tr>
+    </thead>
+        <tr>
+            <th rowspan="2">Conteúdo superior 1</th>
+            <td>Conteúdo 1 linha 1</td>
+            <td>Conteúdo 2 linha 1</td>
+            <td>Conteúdo 3 linha 1</td>
+        </tr>
+        <tr>
+            <td>Conteúdo 1 linha 2</td>
+            <td>Conteúdo 2 linha 2</td>
+            <td>Conteúdo 3 linha 2</td>
+        </tr>
+    </table>
+
+    
+
+
+</body>
+</html>

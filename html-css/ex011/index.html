@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmicas</h1>
+    <p>Vamos testar as imagens em vários dispositivos ou diminuir e aumentar o tamanho do navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto.p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto.m.png" type="image/png">
+        <img src="Imagens/foto.g.png" alt="Imagens flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src="mídia/get tough now.mp3" controls autoplay></audio>
+    <audio src="mídia/head of the snake.mp3" controls autoplay></audio>
+
+    <p>Outros tipos</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="mídia/head of the snake.mp3" type="audio/mpeg">
+        <p>Infelizmente o seu navegador não consegue reproduzir esse áudio. Clique <a href="https://www.youtube.com/watch?v=huiaLDNglM8">aqui</a> para ouvir esse áudio.</p>
+    </audio>
+
+        <h1>Vídeos com HTML5</h1>
+        <p>Este vídeo está hospeado meu próprio servidor.</p>
+        <video width="400" controls poster="Imagens/png-transparent-logo-train-train-text-logo-mode-of-transport.png">
+            <source src="mídia/trem.ogv.ogv" type="video/ogg">
+            <source src="mídia/12887563 1080 1920 30Fps.mp4" type="video/mp4">
+        </video>
+        <hr>
+        <h1>Incorporando vídeos externos no código</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z-UD6IshMgw?si=Sbo9b1jI4xzBsPHt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/691180937?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="O Black Hole!"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        <hr>
+        
+        <iframe src="https://player.vimeo.com/video/691180937?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="720" height="405" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="O Black Hole!"></iframe>
+       
+</body>
+</html>

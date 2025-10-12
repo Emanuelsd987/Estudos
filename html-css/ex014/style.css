@@ -1,0 +1,21 @@
+
+body {
+    background: url(imagens/591db2e0bb7cbff19cba800da63503c6.gif) no-repeat center bottom fixed; background-size: 10%;
+    
+     background-color: rgb(0, 255, 255); 
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+}
+    h1 {
+            color: blueviolet;
+            text-align: center;
+}
+    h2 {
+            color: brown; 
+}
+    p {
+            text-align: justify;
+}
+
+
+
